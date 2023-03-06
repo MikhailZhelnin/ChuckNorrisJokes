@@ -27,7 +27,7 @@ export default function Home() {
           {isLoading ? <h3 className='text-center mb-4 pr-4 pl-4'>Loading...</h3> :
             <h3 className='text-center mb-4 pr-4 pl-4'>{data?.value}</h3>}
           <div className='mb-6 flex justify-center border-b-[1px] border-stone-700'>
-            <Image src={chuck_gif} alt='Chuck Norris gif'/>
+            <Image src={chuck_gif} alt='Chuck Norris gif' unoptimized/>
           </div>
           <button
             type='button'
